@@ -1,5 +1,3 @@
-USE master;
-
 IF OBJECT_ID('dbo.sp_CheckSecurity') IS NULL
   EXEC ('CREATE PROCEDURE dbo.sp_CheckSecurity AS RETURN 0;');
 GO
