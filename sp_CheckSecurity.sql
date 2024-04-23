@@ -1161,3 +1161,4 @@ IF @ShowHighOnly = 0
     FROM #Results 
     ORDER BY 1, 2, 3, 4, 5
     
+GO
